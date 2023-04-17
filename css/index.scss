@@ -30,7 +30,6 @@
       display: flex;
       flex-direction: column;
       min-height: 100vh;
-      background: #333;
     }
     h1 {
       @include title;
@@ -42,12 +41,12 @@
 
 
 
-
 /*Footer*/
 .showcase {
   display: grid;
   /*also: 1fr 1fr 1fr 1fr*/
   grid-template-columns: repeat(4, 1fr);
+  
   img {
     width: 100%;
     height: 250px;
@@ -58,8 +57,8 @@
   grid-template-columns: 2fr 1fr;
   width: 100%;
   height: 150px;
-  margin: 0;
-  background-color: #D666E8;
+  background: #D666E8;
+  margin-bottom: 50px;
   h2 {
     @include title;
     padding: 40px 10px 10px;
@@ -93,7 +92,7 @@
 footer {
   position: relative;
   width: 100%;
-  background: rgb(210, 183, 85);
+  background: black;
   min-height: 100px;
   padding: 20px 50px;
   display: flex;
@@ -111,7 +110,7 @@ footer {
   .social_icon li a {
     display: inline-block;
     font-size: 2em;
-    color: #582BAF;
+    color: white;
     margin: 0 10px;
     transition: 0.5s;
   }
@@ -121,17 +120,17 @@ footer {
   .footer_menu li a {
     display: inline-block;
     font-size: 1.2em;
-    color: #582BAF;
+    color: white;
     margin: 0 10px;
     transition: 0.5s;
     text-decoration: none;
-    opacity: 0.75;
+    opacity: 0.70;
   }
   .footer_menu li a:hover {
-    opacity: 4;
+    opacity: 20;
   } 
   p {
-    color: #582BAF;
+    color: white;
     text-align: center;
     margin: 15px 10px 0;
     font-size: 1.1em;
@@ -142,6 +141,51 @@ footer {
     left: 0;
     width: 100%;
     height: 100px;
-    background: red url(wave.png);
+    background: url('/MyFirst-E-commerce/img/wavew.png');
+    background-size: 1000px 100px;
+  }
+  .wave#wave1 {
+    z-index: 1000;
+    opacity: 0.8;
+    bottom: 0;
+    animation: animateWave 4s linear infinite;
+  }
+  .wave#wave2 {
+    z-index: 999;
+    opacity: 0.5;
+    bottom: 10px;
+    animation: animateWave_02 4s linear infinite;
+  }
+  .wave#wave3 {
+    z-index: 1000;
+    opacity: 0.2;
+    bottom: 15px;
+    animation: animateWave 3s linear infinite;
+  }
+  .wave#wave4 {
+    z-index: 999;
+    opacity: 0.7;
+    bottom: 20px;
+    animation: animateWave_02 3s linear infinite;
+  }
+}
+@keyframes animateWave {
+  0% 
+  {
+    background-position-x: 1000px;
+  }
+  100% 
+  {
+    background-position-x: 0px;
+  }
+}
+@keyframes animateWave_02 {
+  0% 
+  {
+    background-position-x: 0px;
+  }
+  100% 
+  {
+    background-position-x: 1000px;
   }
 }
