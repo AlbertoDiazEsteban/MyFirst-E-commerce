@@ -35,6 +35,9 @@
     h1 {
       @include title;
     }
+    li {
+      list-style: none;
+    }
 }
 
 
@@ -50,7 +53,6 @@
     height: 250px;
   }
 }
-
 .tryNow {
   display: grid;
   grid-template-columns: 2fr 1fr;
@@ -97,11 +99,49 @@ footer {
   display: flex;
   justify-content: center;
   align-items: center;
-  .social_icon {
+  flex-direction: column;
+  .social_icon, .footer_menu {
     position: relative;
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-wrap: wrap;
     margin: 10px 0;
+  }
+  .social_icon li a {
+    display: inline-block;
+    font-size: 2em;
+    color: #582BAF;
+    margin: 0 10px;
+    transition: 0.5s;
+  }
+  .social_icon li a:hover {
+    transform: translateY(-10px);
+  }
+  .footer_menu li a {
+    display: inline-block;
+    font-size: 1.2em;
+    color: #582BAF;
+    margin: 0 10px;
+    transition: 0.5s;
+    text-decoration: none;
+    opacity: 0.75;
+  }
+  .footer_menu li a:hover {
+    opacity: 4;
+  } 
+  p {
+    color: #582BAF;
+    text-align: center;
+    margin: 15px 10px 0;
+    font-size: 1.1em;
+  }
+  .wave {
+    position: absolute;
+    top: -100px;
+    left: 0;
+    width: 100%;
+    height: 100px;
+    background: red url(wave.png);
   }
 }
