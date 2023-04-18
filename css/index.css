@@ -81,7 +81,12 @@
   justify-content: center;
 }
 
+/*@import "footer"*/
 footer {
+  font-family: "Prompt", sans-serif;
+  font-weight: 400;
+  color: #582BAF;
+  font-size: 12px;
   position: relative;
   width: 100%;
   background: black;
@@ -176,5 +181,31 @@ footer .wave#wave4 {
   }
   100% {
     background-position-x: 1000px;
+  }
+}
+/*Media Query*/
+@media (max-width: 700px) {
+  .showcase {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .showcase img {
+    height: 330px;
+  }
+}
+@media (max-width: 400px) {
+  .showcase {
+    grid-template-columns: 1fr;
+  }
+  .showcase img {
+    height: 360px;
+  }
+  .waves {
+    display: none;
+  }
+  .tryNow {
+    margin-bottom: 0;
+  }
+  .tryNow h2 {
+    padding: 20px 0;
   }
 }/*# sourceMappingURL=index.css.map */
