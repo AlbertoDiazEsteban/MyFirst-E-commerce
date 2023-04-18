@@ -13,28 +13,34 @@
 </head>
 <body>
  <!-- header beggin-->
-    <header>
-        <div class="logocrunchify">
-       <a href="index.html"><img src="img/logo/logo_favicon.ico" alt="logocrunchify"></a>
-        </div>
-        <input type="checkbox" id="nav_check" hidden>
-        <nav>
-            <div class="logocrunchify">
-                <a href="index.html"><img src="img/logo/logo_favicon.ico" alt="logocrunchify"></a>
-             </div>
-            <ul>
-                <li><a href="" class="active">Home</a></li>
-                <li><a href="">Products</a></li>
-                <li><a href="">Cart</a></li>
-                <li><a href="">Contact us!</a></li>
-            </ul>
-        </nav>
-        <label for="nav_check" class="hamburger">
-            <div></div>
-            <div></div>
-            <div></div>
-        </label>
-    </header> <!-- ending header-->
+ <header>
+  <div class="logo">
+      <a href="./index.html"><img src="./img/logo/logo_bg_dark.svg" alt="crunchify purple logo"></a>
+  </div>
+  <a><input type="checkbox" id="nav_check" hidden></a>
+  <nav class="show-nav">
+      <ul class="menu">
+          <li>
+              <a href="">Products</a>
+          </li>
+          <li>
+              <a href="">About</a>
+          </li>
+          <li>
+              <a href="">Contact us!</a>
+          </li>
+          <li>
+              <a href="">Reviews</a>
+          </li>
+      </ul>
+  </nav>
+   <label for="nav_check" class="hamburger">
+      <div></div>
+      <div></div>
+      <div></div>
+    </label>
+</header>
+ <!-- ending header-->
 
 <div class="container"> <!-- container begin-->
      <div class="form">
@@ -51,42 +57,59 @@
           <div class="input-container">
             <input type="text" name="name" class="input" placeholder="Username" required/>
             <label for=""></label>
-            <span>Username</span>
+           
           </div>
           <div class="input-container">
             <input type="email" name="email" class="input" placeholder= " example@mail.com" required/>
             <label for=""></label>
-            <span>Email</span>
+           
           </div>
           <div class="input-container">
             <input type="tel" name="phone" class="input" placeholder="+34656123456" required/>
             <label for=""></label>
-            <span>Phone</span>
+         
           </div>
           <div class="input-container textarea">
             <textarea name="message" class="input" maxlength="200" placeholder="Message" required></textarea>
             <label for=""></label>
-            <span>Message</span>
+            
           </div>
           <input type="submit" value="Send" class="btn" />
         </form>
       </div>
     </div>
-  </div>
+  </div><!-- container ends-->
 
-  <div class="social-media">
-    <p>Connect with us:</p>
-    <div class="social-icons">
-        <a href="https://es-es.facebook.com/"><i class="fab fa-facebook-f"></i></a>
-        
-        <a href="https://twitter.com/?lang=es"><i class="fab fa-twitter"></i></a>
-          
-        <a href="https://www.instagram.com/"><i class="fab fa-instagram"></i></a>
-   
-        <a href="https://www.linkedin.com/"><i class="fab fa-linkedin-in"></i></a>
+  <footer>
+    <div class="waves">
+        <div class="wave" id="wave1">
+        </div>
+        <div class="wave" id="wave2"> 
+        </div>
+        <div class="wave" id="wave3">
+        </div>
+        <div class="wave" id="wave4">
+        </div>
     </div>
-  </div>
-</div> <!-- container ends-->
+    <ul class="social_icon">
+        <li><a href="#"><ion-icon name="logo-facebook"></ion-icon></a></li>
+        <li><a href="#"><ion-icon name="logo-twitter"></ion-icon></a></li>
+        <li><a href="#"><ion-icon name="logo-tiktok"></ion-icon></a></li>
+        <li><a href="#"><ion-icon name="logo-instagram"></ion-icon></a></li>
+    </ul>
+    <ul class="footer_menu">
+        <li><a href="#">Home</a></li>
+        <li><a href="#">About Us</a></li>
+        <li><a href="#">Store Location</a></li>
+        <li><a href="#">Reviews</a></li>
+        <li><a href="#">Terms of Use</a></li>
+    </ul>
+    <p>© 2023 Crunch!fy. All rights reserved.</p>
+</footer> 
   
+<script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+<script src="/MyFirst-E-commerce/javascript/main.js"></script>
+
 </body>
 </html>

@@ -1,38 +1,101 @@
+
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Crunchify</title>
     <link rel="icon" type="image/x-icon" href="./img/logo/logo_favicon.ico">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <!-- <link rel="stylesheet" href="./css/index.scss"> -->
     <link rel="stylesheet" href="./css/index.css" type="text/css">
+    <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous"> -->
 </head>
+
 <body>
-  <!-- header beggin-->
-  <header>
-    <div class="logocrunchify">
-   <a href="index.html"><img src="img/logo/logo_favicon.ico" alt="logocrunchify"></a>
-    </div>
-    <input type="checkbox" id="nav_check" hidden>
-    <nav>
-        <div class="logocrunchify">
-            <a href="index.html"><img src="img/logo/logo_favicon.ico" alt="logocrunchify"></a>
-         </div>
-        <ul>
-            <li><a href="" class="active">Home</a></li>
-            <li><a href=""></a></li>
-            <li><a href=""></a></li>
-            <li><a href=""></a></li>
+    <header>
+        <div class="logo">
+            <a href="./index.html"><img src="./img/logo/logo_bg_dark.svg" alt="crunchify purple logo"></a>
+        </div>
+        <a><input type="checkbox" id="nav_check" hidden></a>
+        <nav class="show-nav">
+            <ul class="menu">
+                <li>
+                    <a href="">Products</a>
+                </li>
+                <li>
+                    <a href="">About</a>
+                </li>
+                <li>
+                    <a href="./Contact.html">Contact us!</a>
+                </li>
+                <li>
+                    <a href="">Reviews</a>
+                </li>
+            </ul>
+        </nav>
+         <label for="nav_check" class="hamburger">
+            <div></div>
+            <div></div>
+            <div></div>
+          </label>
+    </header>
+
+    <section class="showcase">
+        <div>
+            <img src="img/bowl2.jpg" alt="cereals-1">
+        </div>
+        <div>
+            <img src="img/bowl4.jpg" alt="cereals-2">
+        </div>
+        <div>
+            <img src="img/bowl5.jpg" alt="cereals-3">
+        </div>
+        <div>
+            <img src="img/bowl15.jpg" alt="cereals-4">
+        </div>
+    </section>
+    <section class="tryNow">
+        <div>
+            <h2>Happiness <span>100% Guaranteed</span></h2>
+            <p>SEE TERMS OF USE</p>
+        </div>
+        <div class="btn-center"><button href="#">TRY NOW</button>
+        </div>
+    </section>
+    <footer>
+        <div class="waves">
+            <div class="wave" id="wave1">
+            </div>
+            <div class="wave" id="wave2"> 
+            </div>
+            <div class="wave" id="wave3">
+            </div>
+            <div class="wave" id="wave4">
+            </div>
+        </div>
+        <ul class="social_icon">
+            <li><a href="#"><ion-icon name="logo-facebook"></ion-icon></a></li>
+            <li><a href="#"><ion-icon name="logo-twitter"></ion-icon></a></li>
+            <li><a href="#"><ion-icon name="logo-tiktok"></ion-icon></a></li>
+            <li><a href="#"><ion-icon name="logo-instagram"></ion-icon></a></li>
         </ul>
-    </nav>
-    <label for="nav_check" class="hamburger">
-        <div></div>
-        <div></div>
-        <div></div>
-    </label>
-</header> <!-- ending header-->
- 
-    
+        <ul class="footer_menu">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About Us</a></li>
+            <li><a href="#">Store Location</a></li>
+            <li><a href="#">Reviews</a></li>
+            <li><a href="#">Terms of Use</a></li>
+        </ul>
+        <p>© 2023 Crunch!fy. All rights reserved.</p>
+    </footer>
+
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    <script src="/MyFirst-E-commerce/javascript/main.js"></script>
 </body>
+
 </html>
