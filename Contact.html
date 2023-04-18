@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Form</title>
+    <link rel="icon" type="image/x-icon" href="./img/logo/logo_favicon.ico">
+    <link rel="stylesheet" href="./css/contact.css" type="text/css">
+    <script src="https://kit.fontawesome.com/64d58efce2.js"
+    crossorigin="anonymous"
+  ></script>
+</head>
+<body>
+ <!-- header beggin-->
+    <header>
+        <div class="logocrunchify">
+       <a href="index.html"><img src="img/logo/logo_favicon.ico" alt="logocrunchify"></a>
+        </div>
+        <input type="checkbox" id="nav_check" hidden>
+        <nav>
+            <div class="logocrunchify">
+                <a href="index.html"><img src="img/logo/logo_favicon.ico" alt="logocrunchify"></a>
+             </div>
+            <ul>
+                <li><a href="" class="active">Home</a></li>
+                <li><a href="">Products</a></li>
+                <li><a href="">Cart</a></li>
+                <li><a href="">Contact us!</a></li>
+            </ul>
+        </nav>
+        <label for="nav_check" class="hamburger">
+            <div></div>
+            <div></div>
+            <div></div>
+        </label>
+    </header> <!-- ending header-->
+
+<div class="container"> <!-- container begin-->
+     <div class="form">
+      <div class="imgbackground">
+        <img src="img/bowls.jpg" alt="">
+      </div>
+    
+      <div class="contact-form">
+        <span class="circle one"></span>
+        <span class="circle two"></span>
+
+        <form class="input-container" action="https://formspree.io/f/moqzpgen" method="POST">
+          <h3 class="title">Contact us &#10024</h3>
+          <div class="input-container">
+            <input type="text" name="name" class="input" placeholder="Username" required/>
+            <label for=""></label>
+            <span>Username</span>
+          </div>
+          <div class="input-container">
+            <input type="email" name="email" class="input" placeholder= " ejemplo@mail.com" required/>
+            <label for=""></label>
+            <span>Email</span>
+          </div>
+          <div class="input-container">
+            <input type="tel" name="phone" class="input" placeholder="+34656123456" required/>
+            <label for=""></label>
+            <span>Phone</span>
+          </div>
+          <div class="input-container textarea">
+            <textarea name="message" class="input" maxlength="200" placeholder="Message" required></textarea>
+            <label for=""></label>
+            <span>Message</span>
+          </div>
+          <input type="submit" value="Send" class="btn" />
+        </form>
+      </div>
+    </div>
+  </div>
+
+  <div class="social-media">
+    <p>Connect with us:</p>
+    <div class="social-icons">
+        <a href="https://es-es.facebook.com/"><i class="fab fa-facebook-f"></i></a>
+        
+        <a href="https://twitter.com/?lang=es"><i class="fab fa-twitter"></i></a>
+          
+        <a href="https://www.instagram.com/"><i class="fab fa-instagram"></i></a>
+   
+        <a href="https://www.linkedin.com/"><i class="fab fa-linkedin-in"></i></a>
+    </div>
+  </div>
+</div> <!-- container ends-->
+  
+</body>
+</html>
