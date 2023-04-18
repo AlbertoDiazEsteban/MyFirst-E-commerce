@@ -95,7 +95,7 @@ nav ul li a.active {
   margin-bottom: 8px;
 }
 
-/*Footer*/
+/*Index*/
 .showcase {
   display: grid;
   /*also: 1fr 1fr 1fr 1fr*/
@@ -151,7 +151,7 @@ nav ul li a.active {
   justify-content: flex-start;
 }
 
-/*@import "footer"*/
+/*Footer @import "footer"*/
 footer {
   font-family: "Prompt", sans-serif;
   font-weight: 400;
