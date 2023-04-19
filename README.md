@@ -1,6 +1,6 @@
 <div>
 <p style = 'text-align:center;'>
-<img src="https://github.com/EvaBustamante7/MyFirst-E-commerce/blob/main/img/logo.png" alt="logo" width="300px">
+<img src="https://github.com/AlbertoDiazEsteban/MyFirst-E-commerce/blob/main/img/logo/logo_color.svg" alt="logo" width="300px">
 </p>
 </div>
 
