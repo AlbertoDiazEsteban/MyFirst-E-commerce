@@ -1,17 +1,25 @@
-@import url("https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;600;700;800;900&display=swap");
+/* tipografia para titulos _________font-family: 'Unbounded', cursive;    */
+@import url("https://fonts.googleapis.com/css2?family=Unbounded:wght@300;400;500;600;700;800;900&display=swap");
+/* tipografia para texto generico _________font-family: 'Prompt', sans-serif;   */
+@import url("https://fonts.googleapis.com/css2?family=Prompt:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+/* para usar______ @include title; */
+/* para usar______ @include text; */
+* {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  text-decoration: none;
+  box-sizing: border-box;
+}
+
+/*logo*/
+/*logo*/
 :root {
-  --clr-main: #4b33a8;
+  --clr-main: #582BAF;
   --clr-main-light: #785ce9;
   --clr-white: #ececec;
   --clr-gray: #e2e2e2;
   --clr-red: #961818;
-}
-
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  font-family: "Rubik", sans-serif;
 }
 
 h1, h2, h3, h4, h5, h6, p, a, input, textarea, ul {
@@ -36,7 +44,7 @@ a {
 aside {
   padding: 2rem;
   padding-right: 0;
-  color: var(--clr-white);
+  color: white;
   position: sticky;
   top: 0;
   height: 100vh;
@@ -59,7 +67,7 @@ aside {
 .boton-menu {
   background-color: transparent;
   border: 0;
-  color: var(--clr-white);
+  color: white;
   cursor: pointer;
   display: flex;
   align-items: center;
@@ -185,7 +193,7 @@ main {
   color: var(--clr-white);
 }
 
-/** CARRITO **/
+/** CART **/
 .contenedor-carrito {
   display: flex;
   flex-direction: column;
@@ -368,4 +376,4 @@ main {
   .contenedor-productos {
     grid-template-columns: 1fr;
   }
-}/*# sourceMappingURL=Cart.css.map */
+}/*# sourceMappingURL=products.css.map */

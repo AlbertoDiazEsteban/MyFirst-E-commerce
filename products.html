@@ -6,9 +6,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Crunchify</title>
-    <link rel="icon" type="image/x-icon" href="./img/logo/logo_favicon.ico">
-    <link rel="stylesheet" href="./css/Cart.css" type="text/css">
-    <script src="https://kit.fontawesome.com/64d58efce2.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css">
+    <link rel="stylesheet" href="./css/products.css">
 </head>
 
 <body>
@@ -25,7 +25,12 @@
                 <i class="bi bi-x"></i>
             </button>
             <header>
+                <div class="logo">
+                    <a href="./index.html"><img src="./img/logo/logo_bg_light.svg" alt="crunchify purple logo"></a>
+                </div>
                 <h1 class="logo">Crunchify</h1>
+                <header>
+                    
             </header>
             <nav>
                 <ul class="menu">
@@ -34,20 +39,20 @@
                                 class="bi bi-hand-index-thumb-fill"></i> Todos los productos</button>
                     </li>
                     <li>
-                        <button id="abrigos" class="boton-menu boton-categoria"><i class="bi bi-hand-index-thumb"></i>
-                            Abrigos</button>
+                        <button id="Cereal chocolate" class="boton-menu boton-categoria"><i class="bi bi-hand-index-thumb"></i>
+                            Cereales Chocolate</button>
                     </li>
                     <li>
-                        <button id="camisetas" class="boton-menu boton-categoria"><i class="bi bi-hand-index-thumb"></i>
-                            Camisetas</button>
+                        <button id="Cereal bajo en azucar" class="boton-menu boton-categoria"><i class="bi bi-hand-index-thumb"></i>
+                            Cereales bajo en azucar</button>
                     </li>
                     <li>
-                        <button id="pantalones" class="boton-menu boton-categoria"><i
-                                class="bi bi-hand-index-thumb"></i> Pantalones</button>
+                        <button id="Cereal sin gluten" class="boton-menu boton-categoria"><i
+                                class="bi bi-hand-index-thumb"></i> Cereales sin gluten</button>
                     </li>
                     <li>
-                        <a class="boton-menu boton-carrito" href="./carrito.html">
-                            <i class="bi bi-cart-fill"></i> Carrito <span id="numerito" class="numerito">0</span>
+                        <a class="boton-menu boton-carrito" href="./cart.html">
+                            <i class="bi bi-cart-fill"></i> Cart <span id="numerito" class="numerito">0</span>
                         </a>
                     </li>
                 </ul>
@@ -65,9 +70,8 @@
     </div>
 
     <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/toastify-js"></script>
-    <script src="./js/MainCart.js"></script>
-    <script src="./js/navCart.js"></script>
-
+    <script src="./javascript/products.js"></script>
+    <script src="./javascript/navcart.js"></script>
 </body>
 
 </html>

@@ -130,6 +130,7 @@ img {
   overflow: hidden;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
+  text-decoration: none;
 }
 .form .contact-form {
   background-color: #582BAF;
