@@ -30,6 +30,21 @@ Para utilizar esta página, simplemente abre el archivo index.html en un navegad
 ## Contribución
 Las contribuciones son bienvenidas. Si deseas hacer una contribución a este proyecto, crea una rama (branch) y realiza tus cambios. Luego, envía una solicitud de extracción (pull request) y se revisará tu contribución.
 
+## Equipo
+
+* Greiskel, Desarrolladora
+* Eva, Desarrolladora
+* Chiara, Product owner y desarrolladora
+* Alberto, Scrum Master y desarrolladora
+
+## Herramientas
+
+* [Trello](https://trello.com/b/hFeKbycM/carrito-de-la-compra)
+* [Figma](https://www.figma.com/file/3QVmiTcoXbbw6AZbopW1EU/Untitled?node-id=1%3A2&t=mIGDhb7rBnPZvHwa-1)
+* [Git/GitHub](https://github.com/AlbertoDiazEsteban/MyFirst-E-commerce)
+* Visual Studio Code
+
+
 ## Links
 * Bootstrap: https://getbootstrap.com/
 * SASS: https://sass-lang.com/
