@@ -4,13 +4,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Prompt:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
 /* para usar______ @include title; */
 /* para usar______ @include text; */
-h1 {
-  font-family: "Unbounded", cursive;
-  font-weight: 800;
-  color: #582BAF;
-  line-height: 93.5%;
-}
-
 * {
   padding: 0;
   margin: 0;
@@ -22,31 +15,10 @@ h1 {
   display: flex;
   flex-direction: column;
   min-height: 100vh;
-}
-* h1 {
-  font-family: "Unbounded", cursive;
-  font-weight: 800;
-  color: #582BAF;
-  line-height: 93.5%;
-}
-* li {
-  list-style: none;
-}
-
-/*background*/
-body {
   background-image: linear-gradient(135deg, #582BAF, #8DE2ED, #FFF385, #FF7ACC);
   background-size: 500%;
   animation: animado 10s infinite;
 }
-
-.texto {
-  color: aliceblue;
-  text-align: center;
-  margin: 300px 0;
-  font-size: 28px;
-}
-
 @keyframes animado {
   0% {
     background-position: 0% 50%;
@@ -58,7 +30,16 @@ body {
     background-position: 0% 50%;
   }
 }
-/*background*/
+* h1 {
+  font-family: "Unbounded", cursive;
+  font-weight: 800;
+  color: #582BAF;
+  line-height: 93.5%;
+}
+* li {
+  list-style: none;
+}
+
 /*Header*/
 header {
   width: 100%;
@@ -138,13 +119,15 @@ nav ul li a.active {
 .showcase img {
   width: 100%;
   height: 450px;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 
 .tryNow {
   display: grid;
   grid-template-columns: 2fr 1fr;
   width: 100%;
-  height: 150px;
+  height: 200px;
   background: #D666E8;
   margin-bottom: 50px;
 }
@@ -187,10 +170,11 @@ nav ul li a.active {
 
 /*Footer @import "footer"*/
 footer {
-  font-family: "Prompt", sans-serif;
-  font-weight: 400;
+  font-family: "Unbounded", cursive;
+  font-weight: 800;
   color: #582BAF;
-  font-size: 12px;
+  line-height: 93.5%;
+  font-size: 16px;
   position: relative;
   width: 100%;
   background: black;
@@ -211,7 +195,7 @@ footer .social_icon, footer .footer_menu {
 }
 footer .social_icon li a {
   display: inline-block;
-  font-size: 2em;
+  font-size: 3em;
   color: white;
   margin: 0 10px;
   transition: 0.5s;
@@ -226,13 +210,18 @@ footer .footer_menu li a {
   margin: 0 10px;
   transition: 0.5s;
   text-decoration: none;
-  opacity: 0.7;
+  line-height: 110%;
 }
 footer .footer_menu li a:hover {
-  opacity: 20;
+  color: #FF7ACC;
 }
 footer p {
   color: white;
+  font-family: "Prompt", sans-serif;
+  font-weight: 400;
+  color: #582BAF;
+  color: #D666E8;
+  font-size: 12px;
   text-align: center;
   margin: 15px 10px 0;
   font-size: 1.1em;
@@ -243,7 +232,7 @@ footer .wave {
   left: 0;
   width: 100%;
   height: 100px;
-  background: url("/MyFirst-E-commerce/img/wavew.png");
+  background: url("/img/wavew.png");
   background-size: 1000px 100px;
 }
 footer .wave#wave1 {
@@ -318,7 +307,7 @@ footer .wave#wave4 {
     justify-content: center;
   }
 }
-@media only screen and (max-width: 1100px) {
+@media only screen and (max-width: 1000px) {
   header {
     width: 90%;
     padding: 0 20px;
@@ -369,5 +358,331 @@ footer .wave#wave4 {
   #nav_check:checked ~ .menu {
     padding: 40px 10px 10px;
     text-align: center;
+  }
+}
+/* Marquee marquesina banner*/
+.text-wrapper {
+  display: flex;
+  justify-content: flex-start;
+  background-color: #582BAF;
+  align-items: center;
+  text-align: center;
+  overflow: hidden;
+  width: 100%;
+  height: 60px;
+}
+.text-wrapper h3 {
+  font-family: "Unbounded", cursive;
+  font-weight: 800;
+  color: #582BAF;
+  line-height: 93.5%;
+  color: white;
+  font-size: 20px;
+  white-space: nowrap;
+  padding: 0rem 0.5rem;
+  letter-spacing: 2px;
+  animation: move-rlt 6000ms linear infinite;
+}
+.text-wrapper span {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  -webkit-text-stroke: 0.5px #ffffff;
+  color: rgba(2, 1, 1, 0);
+  animation: move-rlt 6000ms linear infinite;
+}
+
+@keyframes move-rlt {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}
+/* juego de los crispies */
+.crispy-game {
+  position: relative;
+}
+.crispy-game .container-element {
+  z-index: 5;
+  width: 100%;
+  position: absolute;
+  display: grid;
+  grid: auto/repeat(6, 1fr);
+  gap: 8px;
+  height: 1300px;
+  align-items: center;
+  text-align: center;
+}
+.crispy-game .grid-item {
+  padding: 1rem;
+  grid-column: span 2;
+}
+.crispy-game .container-element .grid-item:nth-child(5n),
+.crispy-game .container-element .grid-item:nth-child(5n-1) {
+  grid-column: span 3;
+}
+.crispy-game .crispy {
+  filter: brightness(110%) saturate(90%);
+  cursor: pointer;
+  position: relative;
+  list-style: none;
+  -o-object-fit: cover;
+     object-fit: cover;
+  width: 90px;
+  height: 90px;
+  position: absolute;
+  animation: float 3s ease-in-out infinite, rotate 3s linear infinite;
+}
+@keyframes float {
+  0% {
+    transform: translate(0, 0);
+  }
+  50% {
+    transform: translate(30px, -100px);
+  }
+  100% {
+    transform: translate(0, 0);
+  }
+}
+@keyframes rotate {
+  0% {
+    transform: rotate(0);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+/* Opinions */
+.container-opinions {
+  background-color: #8DE2ED;
+  width: 100%;
+  height: 600px;
+  display: grid;
+  align-items: center;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(1, 1fr);
+  grid-gap: 10%;
+  padding: 0 8%;
+}
+.container-opinions p {
+  font-family: "Prompt", sans-serif;
+  font-weight: 400;
+  color: #582BAF;
+  font-size: 22px;
+  line-height: 110%;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+.container-opinions .line {
+  margin-top: 30px;
+  display: block;
+  width: 100%;
+  height: 2px;
+  background-color: #582BAF;
+  margin: 10px 0;
+  text-align: center;
+}
+.container-opinions h3 {
+  font-family: "Unbounded", cursive;
+  font-weight: 800;
+  color: #582BAF;
+  line-height: 93.5%;
+  margin-top: 20px;
+  text-align: center;
+  margin: 0;
+  margin-top: 30px;
+  padding: 0;
+}
+
+#carouselExampleIndicators {
+  display: none;
+}
+
+@media only screen and (max-width: 1000px) {
+  .container-opinions {
+    display: none;
+  }
+  #carouselExampleIndicators {
+    display: block;
+    background-color: #8DE2ED;
+    width: 100%;
+    height: 600px;
+    display: grid;
+    align-items: center;
+    padding: 0 8%;
+  }
+  .carousel-indicators button {
+    min-width: 30px;
+    min-height: 30px;
+    border-radius: 50%;
+    background-color: #582BAF;
+    border: none;
+    margin: 0 5px;
+  }
+  .carousel-indicators button.active {
+    background-color: #582BAF !important;
+  }
+  .carousel-indicators button.inactive {
+    background-color: #582BAF !important;
+  }
+  .carousel-inner {
+    width: 50%;
+  }
+  .carousel-inner p {
+    font-family: "Prompt", sans-serif;
+    font-weight: 400;
+    color: #582BAF;
+    font-size: 22px;
+    line-height: 110%;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    max-width: 80%;
+    margin: 0 10%;
+  }
+  .carousel-inner .line {
+    margin-top: 30px;
+    display: block;
+    height: 2px;
+    background-color: #582BAF;
+    max-width: 30%;
+    margin: 20px 35%;
+  }
+  .carousel-inner h3 {
+    font-family: "Unbounded", cursive;
+    font-weight: 800;
+    color: #582BAF;
+    line-height: 93.5%;
+    margin-top: 20px;
+    text-align: center;
+    margin: 0;
+    margin-top: 30px;
+    padding: 0;
+    max-width: 50%;
+    margin: 0 25%;
+  }
+  .carousel-prev-icon {
+    background-image: url(/img/logo/back_arrow.svg) !important;
+  }
+  .carousel-next-icon {
+    background-image: url(/img/logo/next_arrow.svg) !important;
+  }
+}
+/* logo animado */
+.imgLogoAnimated {
+  margin-left: 33.5%;
+  margin-right: 50%;
+  position: relative;
+  top: -143px;
+}
+.imgLogoAnimated img {
+  margin-top: -100px;
+  height: 300px;
+  width: 300px;
+  display: block;
+  position: absolute;
+  z-index: 1;
+  transform-origin: center;
+  margin-top: 0;
+}
+.imgLogoAnimated img:first-child {
+  z-index: 2;
+  animation: rotateleft 25s linear infinite;
+}
+.imgLogoAnimated img:last-child {
+  z-index: 2;
+  animation: rotateright 25s linear infinite;
+}
+
+@keyframes rotateleft {
+  0% {
+    transform: rotate(0);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+@keyframes rotateright {
+  0% {
+    transform: rotate(0);
+  }
+  100% {
+    transform: rotate(-360deg);
+  }
+}
+@media only screen and (max-width: 1000px) {
+  .imgLogoAnimated {
+    display: none;
+  }
+}
+/*  container grande */
+.container-opinions2 {
+  background-color: #582BAF;
+  width: 100%;
+  height: 900px;
+  display: grid;
+  align-items: center;
+  grid-template-columns: 2fr 3fr;
+  grid-template-rows: 1fr;
+}
+.container-opinions2 .col1 {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: repeat(3, 1fr);
+  grid-gap: 150px;
+  max-width: 70%;
+  margin: 0 15%;
+  text-align: center;
+  align-items: center;
+}
+.container-opinions2 .col1 h2 {
+  font-family: "Unbounded", cursive;
+  font-weight: 800;
+  color: #582BAF;
+  line-height: 93.5%;
+  color: #8DE2ED;
+}
+.container-opinions2 .col1 p {
+  font-family: "Prompt", sans-serif;
+  font-weight: 400;
+  color: #582BAF;
+  color: #8DE2ED;
+  margin-bottom: 20px;
+  font-size: 22px;
+  max-width: 90%;
+  margin: 0 5%;
+  line-height: 100%;
+}
+.container-opinions2 .col2 {
+  background-image: url("/img/colourfulcereals.png");
+  background-size: cover;
+  background-position: center;
+  height: 100%;
+  width: 100%;
+}
+
+@media only screen and (max-width: 1000px) {
+  .container-opinions2 {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 3fr 1.5fr;
+    grid-gap: 100px;
+    height: 1400px;
+    padding-top: 200px;
+  }
+  .container-opinions2 col1 {
+    height: 900px;
+    align-items: center;
+  }
+  .container-opinions2 col2 {
+    height: 500px;
+  }
+  .container-opinions2 h2 {
+    font-size: 40px;
+  }
+  .container-opinions2 p {
+    font-size: 40px;
   }
 }/*# sourceMappingURL=index.css.map */
