@@ -5,7 +5,7 @@
 </div>
 
 # Crunch!fy 
-Bienvenidos a Crunch!fy, tu tienda en línea para comprar cereales deliciosos y nutritivos. En nuestro sitio web encontrarás una amplia variedad de cereales de diferentes marcas y sabores, para que puedas elegir el que más te guste.
+Bienvenidos a Crunch!fy, tu tienda en línea para comprar cereales deliciosos y nutritivos. En nuestro sitio web encontrarás una amplia variedad de cereales de diferentes marcas y sabores, para que puedas elegir el que más te guste
 
 ## Características de la página
 Nuestra tienda en línea presenta las siguientes características:
