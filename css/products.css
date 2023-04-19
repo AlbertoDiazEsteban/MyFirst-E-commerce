@@ -12,8 +12,26 @@
   box-sizing: border-box;
 }
 
-/*logo*/
-/*logo*/
+main {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  background-image: linear-gradient(135deg, #582BAF, #8DE2ED, #FFF385, #FF7ACC);
+  background-size: 500%;
+  animation: animado 10s infinite;
+}
+@keyframes animado {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  1000% {
+    background-position: 0% 50%;
+  }
+}
+
 :root {
   --clr-main: #582BAF;
   --clr-main-light: #785ce9;
@@ -25,6 +43,10 @@
 h1, h2, h3, h4, h5, h6, p, a, input, textarea, ul {
   margin: 0;
   padding: 0;
+}
+
+.logo h1 {
+  text-align: center;
 }
 
 ul {
@@ -56,6 +78,12 @@ aside {
 .logo {
   font-weight: 400;
   font-size: 1.3rem;
+  text-align: center;
+}
+.logo h1 {
+  font-family: "Unbounded", cursive;
+  font-weight: 800;
+  line-height: 93.5%;
 }
 
 .menu {
