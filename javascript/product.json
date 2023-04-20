@@ -4,8 +4,8 @@
         "titulo": "Cereal 01",
         "imagen": "./img/crunch_chocolate.jpg",
         "categoria": {
-            "nombre": "Cereal chocolate",
-            "id": "Cereal Chocolate"
+            "nombre": "Cereales Chocolate",
+            "id": "Cereales Chocolate"
         },
         "precio": 3
     },
@@ -14,8 +14,8 @@
         "titulo": "Cereal 02",
         "imagen": "./img/crunch_chocolate.jpg",
         "categoria": {
-            "nombre": "Cereal Chocolate",
-            "id": "Cereal Chocolate"
+            "nombre": "Cereales Chocolate",
+            "id": "Cereales Chocolate"
         },
         "precio": 3
     },
@@ -24,8 +24,8 @@
         "titulo": "Cereal 03",
         "imagen": "./img/crunch_chocolate.jpg",
         "categoria": {
-            "nombre": "Cereal Chocolate",
-            "id": "Cereal Chocolate"
+            "nombre": "Cereales Chocolate",
+            "id": "Cereales Chocolate"
         },
         "precio": 3
     },
@@ -34,8 +34,8 @@
         "titulo": "Cereal 04",
         "imagen": "./img/crunch_chocolate.jpg",
         "categoria": {
-            "nombre": "Cereal Chocolate",
-            "id": "Cereal Chocolate"
+            "nombre": "Cereales Chocolate",
+            "id": "Cereales Chocolate"
         },
         "precio": 3
     },
@@ -44,8 +44,8 @@
         "titulo": "Cereal 05",
         "imagen": "./img/crunch_chocolate.jpg",
         "categoria": {
-            "nombre": "Cereal Chocolate",
-            "id": "Cereal Chocolate"
+            "nombre": "Cereales Chocolate",
+            "id": "Cereales Chocolate"
         },
         "precio": 3
     },
