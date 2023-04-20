@@ -102,7 +102,7 @@ aside {
   gap: 1rem;
   font-weight: 600;
   padding: 1rem;
-  font-size: 0.85rem;
+  font-size: 0.95rem;
   width: 100%;
 }
 
@@ -201,7 +201,7 @@ main {
 }
 
 .producto-titulo {
-  font-size: 1rem;
+  font-size: 1.2rem;
 }
 
 .producto-agregar {
