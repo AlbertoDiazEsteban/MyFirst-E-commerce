@@ -48,6 +48,11 @@ h1, h2, h3, h4, h5, h6, p, a, input, textarea, ul {
 .logo h1 {
   text-align: center;
 }
+.logo h1 h1 {
+  color: white;
+  font-family: "Unbounded", cursive;
+  font-weight: 400;
+}
 
 ul {
   list-style-type: none;
@@ -78,12 +83,6 @@ aside {
 .logo {
   font-weight: 400;
   font-size: 1.3rem;
-  text-align: center;
-}
-.logo h1 {
-  font-family: "Unbounded", cursive;
-  font-weight: 800;
-  line-height: 93.5%;
 }
 
 .menu {
@@ -160,8 +159,11 @@ aside {
 }
 
 .texto-footer {
-  color: var(--clr-main-light);
-  font-size: 0.85rem;
+  font-family: "Prompt", sans-serif;
+  font-weight: 400;
+  color: #582BAF;
+  color: white;
+  font-size: 11px;
 }
 
 main {
