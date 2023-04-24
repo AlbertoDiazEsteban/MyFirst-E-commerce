@@ -5,9 +5,9 @@
         "imagen": "./img/crunch_chocolate.jpg",
         "categoria": {
             "nombre": "Cereales Chocolate",
-            "id": "Cereal Chocolate"
+            "id": "Cereales Chocolate"
         },
-        "precio": 2
+        "precio": 3
     },
     {
         "id": "Cereal-02",
@@ -15,9 +15,9 @@
         "imagen": "./img/crunch_chocolate.jpg",
         "categoria": {
             "nombre": "Cereales Chocolate",
-            "id": "Cereal Chocolate"
+            "id": "Cereales Chocolate"
         },
-        "precio": 2
+        "precio": 3
     },
     {
         "id": "Cereal-03",
@@ -25,9 +25,9 @@
         "imagen": "./img/crunch_chocolate.jpg",
         "categoria": {
             "nombre": "Cereales Chocolate",
-            "id": "Cereal Chocolate"
+            "id": "Cereales Chocolate"
         },
-        "precio": 2
+        "precio": 3
     },
     {
         "id": "Cereal-04",
@@ -35,9 +35,9 @@
         "imagen": "./img/crunch_chocolate.jpg",
         "categoria": {
             "nombre": "Cereales Chocolate",
-            "id": "Cereal Chocolate"
+            "id": "Cereales Chocolate"
         },
-        "precio": 2
+        "precio": 3
     },
     {
         "id": "Cereal-05",
@@ -45,9 +45,9 @@
         "imagen": "./img/crunch_chocolate.jpg",
         "categoria": {
             "nombre": "Cereales Chocolate",
-            "id": "Cereal Chocolate"
+            "id": "Cereales Chocolate"
         },
-        "precio": 2
+        "precio": 3
     },
     {
         "id": "Cereal-06",
@@ -57,7 +57,7 @@
             "nombre": "Cereal bajo en azucar",
             "id": "Cereal bajo en azucar"
         },
-        "precio": 2
+        "precio": 3
     },
     {
         "id": "Cereal-07",
@@ -67,7 +67,7 @@
             "nombre": "Cereal bajo en azucar",
             "id": "Cereal bajo en azucar"
         },
-        "precio": 2
+        "precio": 3
     },
     {
         "id": "Cereal-08",
@@ -77,7 +77,7 @@
             "nombre": "Cereal bajo en azucar",
             "id": "Cereal bajo en azucar"
         },
-        "precio": 2
+        "precio": 3
     },
     {
         "id": "Cereal-09",
@@ -87,7 +87,7 @@
             "nombre": "Cereal bajo en azucar",
             "id": "Cereal bajo en azucar"
         },
-        "precio": 2
+        "precio": 3
     },
     {
         "id": "Cereal-10",
@@ -97,7 +97,7 @@
             "nombre": "Cereal bajo en azucar",
             "id": "Cereal bajo en azucar"
         },
-        "precio": 2
+        "precio": 3
     },
     {
         "id": "Cereal-11",
@@ -107,7 +107,7 @@
             "nombre": "Cereal bajo en azucar",
             "id": "Cereal bajo en azucar"
         },
-        "precio": 2
+        "precio": 3
     },
     {
         "id": "Cereal-12",
@@ -117,7 +117,7 @@
             "nombre": "Cereal bajo en azucar",
             "id": "Cereal bajo en azucar"
         },
-        "precio": 2
+        "precio": 3
     },
     {
         "id": "Cereal-13",
@@ -127,7 +127,7 @@
             "nombre": "Cereal bajo en azucar",
             "id": "Cereal bajo en azucar"
         },
-        "precio": 2
+        "precio": 3
     },
     {
         "id": "Cereal-14",
@@ -137,7 +137,7 @@
             "nombre": "Cereal sin gluten",
             "id": "Cereal sin gluten"
         },
-        "precio": 2
+        "precio": 3
     },
     {
         "id": "Cereal-15",
@@ -147,7 +147,7 @@
             "nombre": "Cereal sin gluten",
             "id": "Cereal sin gluten"
         },
-        "precio": 2
+        "precio": 3
     },
     {
         "id": "Cereal-16",
@@ -157,7 +157,7 @@
             "nombre": "Cereal sin gluten",
             "id": "Cereal sin gluten"
         },
-        "precio": 2
+        "precio": 3
     },
     {
         "id": "Cereal-17",
@@ -167,7 +167,7 @@
             "nombre": "Cereal sin gluten",
             "id": "Cereal sin gluten"
         },
-        "precio": 2
+        "precio": 3
     },
     {
         "id": "Cereal-18",
@@ -177,6 +177,6 @@
             "nombre": "Cereal sin gluten",
             "id": "Cereal sin gluten"
         },
-        "precio": 2
+        "precio": 3
     }
 ]
